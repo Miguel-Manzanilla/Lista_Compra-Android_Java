@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="MERCADONA"
+    app:startDestination="@+id/nav_nueva_lista">
+
+    <fragment
+        android:id="@+id/nav_nueva_lista"
+        android:name="es.riberadeltajo.practica4miguelmanzanillaocana.ui.home.HomeFragment"
+        android:label="Nueva Lista"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_consultar_listas"
+        android:name="es.riberadeltajo.practica4miguelmanzanillaocana.ui.gallery.GalleryFragment"
+        android:label="Consultar Listas"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_compartir"
+        android:name="es.riberadeltajo.practica4miguelmanzanillaocana.ui.slideshow.SlideshowFragment"
+        android:label="Compartir"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_crear"
+        android:name="es.riberadeltajo.practica4miguelmanzanillaocana.ui.crear.crear"
+        android:label="Crear Producto"
+        tools:layout="@layout/fragment_crear" />
+</navigation>

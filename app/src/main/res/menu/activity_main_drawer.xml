@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_nueva_lista"
+            android:icon="@drawable/baseline_add_24"
+            android:title="Nueva Lista" />
+        <item
+            android:id="@+id/nav_consultar_listas"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Consultar Listas" />
+        <item
+            android:id="@+id/nav_crear"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Crear Producto" />
+        <item
+            android:id="@+id/nav_compartir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/baseline_share_24"
+            android:title="Compartir Lista" />
+    </group>
+</menu>
